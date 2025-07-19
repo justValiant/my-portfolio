@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justvaliant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <input type="checkbox" tabindex="0" name="menu-toggle" id="menu-toggle">
+        <div class="mobile-menu">
+            <a href="#">
+                <div class="logo-container">
+                    <img class="logo" src="Assets/logo.png" alt="Logo">
+                    <span class="logo-text">justvaliant</span>
+                </div>
+            </a>
+            <label for="menu-toggle" class="menu-icon">
+                <span class="menu-icon-1"></span>
+                <span class="menu-icon-2"></span>
+                <span class="menu-icon-3"></span>
+            </label>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#" tabindex="0">Home</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="content">
+                <h1>Hi! <span class="highlight">I'm Valiant</span>.<br> Nice to meet you!</h1>
+                <p>I'm a high school student passionate about becoming an AI Robotics Engineer. In the meantime, I'm actively developing my skills in web development and building real-world projects to gain experience. I enjoy exploring and learning new tools that help me build creative projects.<br><br>In my free time, I like playing strategy games and listening to orchestral music.</p>
+                <div class="btn-section">
+                    <button class="btn-primary">Contact Me</button>
+                    <button class="btn-secondary">My Resume</button>
+                </div>
+            </div>
+            <img class="hero-image" src="Assets/profile.png" alt="Valiant">
+        </section>
+        <section class="tech-stack" id="tech-stack">
+            <h2>Tech Stack</h2>
+            <div class="card-group">
+                <div class="card-items">
+                    <svg class="svg-logo" class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m3 2l1.578 17.824L12 22l7.467-2.175L21 2zm14.049 6.048H9.075l.172 2.016h7.697l-.626 6.565l-4.246 1.381l-4.281-1.455l-.288-2.932h2.024l.16 1.411l2.4.815l2.346-.763l.297-3.005H7.416l-.562-6.05h10.412z" />
+                    </svg>
+                    <p class="caption">HTML</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" class="svg-logo xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="m3 2l1.578 17.834L12 22l7.468-2.165L21 2zm13.3 14.722l-4.293 1.204H12l-4.297-1.204l-.297-3.167h2.108l.15 1.526l2.335.639l2.34-.64l.245-3.05h-7.27l-.187-2.006h7.64l.174-2.006H6.924l-.176-2.006h10.506z" />
+                    </svg>
+                    <p class="caption">CSS</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 21V9H6v6z"/><path d="M18 9V3H6l6 6H6v6h12l-6-6z"/></g></svg>
+                    <p class="caption">Framer</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M5.333 5.333A3.333 3.333 0 0 1 8.666 2h6.667a3.333 3.333 0 1 1 0 6.667H12v10a3.333 3.333 0 1 1-3.334-3.334a3.333 3.333 0 1 1 0-6.666a3.333 3.333 0 0 1-3.333-3.334M12 12a3.333 3.333 0 1 0 6.666 0A3.333 3.333 0 0 0 12 12"/>
+                    </svg>
+                    <p class="caption">Figma</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                        <path d="M59.39.152c-.484.051-1.995.23-3.328.387c-5.374.613-11.468 2.227-16.816 4.48C19.891 13.106 5.324 30.849 1.305 51.2C.359 56.04.129 58.418.129 64c0 7.195.715 12.16 2.61 18.434c6.195 20.53 22.323 36.632 42.906 42.851c6.195 1.871 11.187 2.586 18.355 2.586c7.195 0 12.16-.715 18.434-2.61c20.53-6.195 36.632-22.323 42.851-42.906c1.871-6.195 2.586-11.187 2.586-18.355c0-3.047-.152-6.527-.332-7.809c-2.074-14.796-8.168-27.238-18.328-37.402C99.07 8.703 86.68 2.586 72.19.512c-1.996-.282-11.238-.54-12.8-.36m-20.863 40.32c1.36.41 1.996.794 2.918 1.715c1.793 1.82 2.203 2.817 2.203 5.555c0 2.051-.078 2.434-.691 3.508c-1.18 1.996-3.918 3.84-5.812 3.89c-1.333.028-1.278-.562.18-2.097c1.945-2.023 2.226-2.79 2.226-5.813c-.024-2.917-.383-3.914-1.739-4.734c-1.128-.691-2.355-.64-4.148.203c-4.66 2.23-9.703 9.653-11.672 17.258c-2.613 10.137 2.02 18.25 9.649 16.867c2.226-.41 6.425-2.558 8.246-4.25c1.508-1.379 1.508-1.406 1.66-3.12c.336-3.587 2.867-7.169 6.25-8.833c1.558-.77 1.945-.844 4.043-.844c1.996 0 2.457.102 3.43.637c3.097 1.77 2.457 5.89-.895 5.89c-1.945 0-2.945-1-1.535-1.534c1.383-.512.867-2.434-.742-2.868c-1.895-.488-4.047.793-5.403 3.25c-1.64 2.97-1.715 6.504-.156 8.114c1.512 1.613 3.406.336 4.867-3.329c.766-1.867 1.867-2.867 3.149-2.867c1.125 0 1.332.692.843 2.793c-.718 3.25-.23 4.094 1.793 3.098c.664-.309 1.766-1.023 2.43-1.535l1.254-1l.848-4.43c.922-4.965 1.277-5.633 3.172-5.988c1.82-.336 2.23.562 1.562 3.402l-.36 1.59l1.333-1.36c3.148-3.226 7.015-4.812 8.347-3.48c.715.715.637 1.613-.386 4.785c-.485 1.512-1.153 3.895-1.457 5.25c-.461 2.047-.489 2.535-.23 2.868c.82.972 3.327-.028 5.554-2.204l1.305-1.277l.156-2.844c.152-3.277.457-4.453 1.328-5.504c.82-.972 2.305-1.687 3.098-1.484c.793.207.793.973.078 3.227c-1 3.097-.895 10.238.129 10.238c.41 0 2.507-2.2 3.84-4.043l.996-1.36l-.793-.816c-1.383-1.46-1.715-2.406-1.715-4.789c0-1.738.129-2.379.562-3.227c.719-1.328 1.844-2.3 3.176-2.687c1.406-.434 3.148.281 3.863 1.562c.719 1.305.54 4.223-.383 6.223l-.664 1.457h.895c1.23 0 1.715-.305 3.918-2.379c1.152-1.101 2.484-2.05 3.48-2.511c3.918-1.84 8.528-.895 9.293 1.921c.64 2.254-.765 3.84-3.226 3.66c-1.766-.128-2.098-.59-1.074-1.456c1.843-1.54 0-3.508-2.637-2.793c-1.434.386-3.047 1.996-3.89 3.867c-1.692 3.738-.794 8.14 1.636 8.14c.973 0 2.691-1.921 3.355-3.789c.793-2.152 2.457-3.507 3.711-3.02c.692.255.743.946.309 3.122c-.488 2.383-.563 4.61-.18 5.633c.153.382.614 1.101 1.051 1.586c.816.921.844 1.254.152 1.691c-.332.23-.77.129-1.843-.46c-1.485-.77-2.766-2.153-3.227-3.458l-.281-.766l-1.024.766c-.59.41-1.511.871-2.047 1.023c-2.125.563-4.738-.894-5.964-3.351c-.489-.95-.641-3.738-.282-4.813c.204-.59.204-.59-.617-.18c-.433.231-1.355.485-2.07.563c-1.18.13-1.36.258-2.535 1.742c-1.664 2.07-4.61 4.864-5.813 5.454c-2.558 1.277-3.402.918-4.07-1.72l-.461-1.765l-1.102.973c-1.406 1.23-4.222 2.715-5.836 3.074c-1.535.332-3.175-.156-3.84-1.18c-.995-1.535-.663-4.785.922-9.164c1.176-3.25.333-3.3-2.636-.203c-2.203 2.328-3.149 3.992-3.762 6.578c-.64 2.688-1.41 3.66-3.148 4.07c-1.051.231-1.54-.41-1.332-1.816l.152-1.129l-.973.668c-1.383.946-3.125 1.817-4.328 2.149s-2.789-.024-3.172-.692c-.691-1.175-.691-1.175-1.765-.332c-2.332 1.895-5.66 1.356-7.348-1.152l-.54-.793l-1.687 1.562c-4.867 4.454-10.957 6.45-15.464 5.067c-5.735-1.738-8.907-6.656-8.856-13.746c.024-7.117 3.172-14.617 8.473-20.172c2.996-3.125 5.812-4.969 8.68-5.66c2.07-.512 3.328-.485 5.296.129zm0 0"/><path d="M90.418 58.676c-.563.562-.356 2.816.36 4.25c.359.742.742 1.332.87 1.332c.102 0 .332-.59.512-1.309c.64-2.66-.512-5.504-1.742-4.273m0 0"/>
+                    </svg>
+                    <p class="caption">Canva</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/>
+                    </svg>
+                    <p class="caption">Github</p>
+                </div>
+            </div>
+        </section>
+        <section class="my-projects" id="my-projects">
+            <h2>My Projects</h2>
+            <article>
+                <img class="project-img" src="Assets/alevel.png" alt="ALEVEL Website Preview" />
+                <div class="project-content">
+                    <h3>ALEVEL (2023-2025)</h3>
+                    <p>
+                        This website was created as part of a school team project, with the purpose of delivering messages about environmental and social issues through a digital comic. I served as the designer and developer of the website.
+                    </p>
+                    <div class="btn-section">
+                        <a class="btn-primary" href="https://alevelcomics.framer.ai" target="_blank">Open <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <img class="project-img" src="Assets/je.png" alt="ALEVEL Website Preview" />
+                <div class="project-content">
+                    <h3>JE Club (2023-2025)</h3>
+                    <p>
+                        I developed this website as part of the JE Club program, to showcase documentation of school events and club activities. I was responsible for both the design and development of the site.
+                    </p>
+                    <div class="btn-section">
+                        <a class="btn-primary" href="https://citraberkatshs.framer.website" target="_blank">Open <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <iframe src="https://embed.figma.com/design/4g7jrtpXphEsHPMSG4iVWN/Poligraph-Prototype-Design?node-id=1-18&embed-host=share" allowfullscreen></iframe>
+                <div class="project-content">
+                    <h3>Poligraph App (2025)</h3>
+                    <p>
+                        This app was built as part of an IT school team project focused on creating a Polyalphabetic Cipher learning application using Kodular. I was responsible for designing the user interface and developing the app.
+                    </p>
+                    <div class="btn-section">
+                        <a class="btn-primary" href="https://alevelcomics.framer.ai" target="_blank">Download <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                        <a class="btn-secondary" href="https://www.figma.com/design/4g7jrtpXphEsHPMSG4iVWN/Poligraph-Prototype-Design?t=4tV5zUZ3x4xzM5Al-1" target="_blank">Design <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <iframe src="https://embed.figma.com/design/vzPAO3zLbymzMslf41gr7Q/G.O-SCK-Prototype-Design?node-id=1-18&embed-host=share" allowfullscreen></iframe>
+                <div class="project-content">
+                    <h3>G.O SCK App (2025)</h3>
+                    <p>
+                        I built this app to help students prepare for and manage the weekly Tuesday morning session (Grand Opening) at my school, which includes prayer, devotion, and the school hymn for grades 10 to 12. I was entrusted by my teachers to design and develop the app using Kodular.
+                    </p>
+                    <div class="btn-section">
+                        <a class="btn-primary" href="https://citraberkatshs.framer.website" target="_blank">Download <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                        <a class="btn-secondary" href="https://www.figma.com/design/vzPAO3zLbymzMslf41gr7Q/G.O-SCK-Prototype-Design?node-id=1-18&t=4tV5zUZ3x4xzM5Al-1" target="_blank">Design <svg class="svg-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4m-8-2l8-8m0 0v5m0-5h-5"/></svg></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="certifications" id="certifications">
+            <h2>Certifications</h2>
+            <div class="card-group">
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47c-1.34.03-1.77-.79-3.29-.79c-1.53 0-2 .77-3.27.82c-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51c1.28-.02 2.5.87 3.29.87c.78 0 2.26-1.07 3.81-.91c.65.03 2.47.26 3.64 1.98c-.09.06-2.17 1.28-2.15 3.81c.03 3.02 2.65 4.03 2.68 4.04c-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5c.13 1.17-.34 2.35-1.04 3.19c-.69.85-1.83 1.51-2.95 1.42c-.15-1.15.41-2.35 1.05-3.11"/>
+                    </svg>
+                    <p class="caption">Apple Foundation Program (2024)</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 10a4 4 0 1 0 0-8a4 4 0 0 0 0 8m-6.5 3a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5M21 10.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0m-9 .5a5 5 0 0 1 5 5v6H7v-6a5 5 0 0 1 5-5m-7 5c0-.693.1-1.362.288-1.994l-.17.014A3.5 3.5 0 0 0 2 17.5V22h3zm17 6v-4.5a3.5 3.5 0 0 0-3.288-3.494c.187.632.288 1.301.288 1.994v6z" />
+                    </svg>
+                    <p class="caption">Project Manager - Publication Team in high school (2023-2025)</p>
+                </div>
+                <div class="card-items">
+                    <svg class="svg-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0m0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5z" clip-rule="evenodd" />
+                    </svg>
+                    <p class="caption">A student with integrity - High school (2025)</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-me" id="contact-me">
+            <h2>Contact Me</h2>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                </div>
+                <div class="button-section">
+                    <button type="submit" class="btn-primary">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="#" target="_blank" aria-label="Instagram">
+                <svg class="svg-logo-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.9 4.9 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a79 79 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.9 4.9 0 0 1-1.153 1.772a4.9 4.9 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465l-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78 78 0 0 1-2.189-.023l-.194-.006a63 63 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.9 4.9 0 0 1-1.771-1.153a4.9 4.9 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428l-.03-.712l-.005-.194A79 79 0 0 1 2 13.028v-2.056a79 79 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.9 4.9 0 0 1 3.68 3.678a4.9 4.9 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5" />
+                </svg>
+            </a>
+            <a href="#" target="_blank" aria-label="Github">
+                <svg class="svg-logo-small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/>
+                </svg>
+            </a>
+        </div>
+        <small>Copyright © 2025 justvaliant. All rights reserved.</small>
+    </footer>
+</body>
+</html>
