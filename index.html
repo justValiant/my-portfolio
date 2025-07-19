@@ -170,7 +170,7 @@
             <form action="https://formsubmit.co/6fc8315c3ec24d4ae0a7fb200ac25c55" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                    <input type="text" id="name" name="name" required placeholder="Your Name" minlength="2" maxlength="50">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
@@ -178,10 +178,11 @@
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..." minlength="10" maxlength="300"></textarea>
                 </div>
-                <div class="button-section">
+                <div class="btn-section">
                     <button type="submit" class="btn-primary">Send</button>
+                    <button type="reset" class="btn-secondary">Reset</button>
                 </div>
                 <input type="hidden" name="_next" value="https://justvaliant.github.io/my-portfolio">
                 <input type="hidden" name="_template" value="table">
